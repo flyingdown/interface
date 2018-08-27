@@ -1,5 +1,5 @@
 <template>
-<div class="login-box" id="app" >
+<div class="login-box">
     <el-form :model="account" :rules="rules" ref="ruleForm" label-position="left" label-width="0px" class="demo-ruleForm login-container">
         <h3 class="title">系统登录</h3>
         <el-form-item prop="username" :error="account.e_username">

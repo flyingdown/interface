@@ -20,6 +20,11 @@ import {
     Submenu,
     MenuItem,
     MenuItemGroup,
+    Container,
+    Header,
+    Aside,
+    Main,
+    Footer,
     Message,
 } from 'element-ui'
 
@@ -39,6 +44,11 @@ Vue.use(Menu)
 Vue.use(Submenu)
 Vue.use(MenuItem)
 Vue.use(MenuItemGroup)
+Vue.use(Container)
+Vue.use(Header)
+Vue.use(Aside)
+Vue.use(Main)
+Vue.use(Footer)
 
 Vue.prototype.$message = Message
 
