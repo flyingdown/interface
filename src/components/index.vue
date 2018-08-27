@@ -2,7 +2,7 @@
     <div>
         <el-row :gutter="20">
             <el-col :span="6">
-                <navigation></navigation>
+                <nav-side></nav-side>
             </el-col>
             <el-col :span="14">
             </el-col>
@@ -11,7 +11,7 @@
 </template>
 
 <script>
-import Navigation from '@/components/navigation'
+import navSide from '@/components/navSide'
 export default {
     data () {
         return {
@@ -19,7 +19,7 @@ export default {
         }
     },
     components: {
-        Navigation,
+        navSide,
     }
 }
 </script>
