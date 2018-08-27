@@ -13,6 +13,13 @@ import {
     Form,
     FormItem,
     Checkbox,
+    Radio,
+    RadioGroup,
+    RadioButton,
+    Menu,
+    Submenu,
+    MenuItem,
+    MenuItemGroup,
     Message,
 } from 'element-ui'
 
@@ -25,6 +32,13 @@ Vue.component(Button.name, Button)
 Vue.component(Form.name, Form)
 Vue.component(FormItem.name, FormItem)
 Vue.component(Checkbox.name, Checkbox)
+Vue.use(Radio)
+Vue.use(RadioGroup)
+Vue.use(RadioButton)
+Vue.use(Menu)
+Vue.use(Submenu)
+Vue.use(MenuItem)
+Vue.use(MenuItemGroup)
 
 Vue.prototype.$message = Message
 

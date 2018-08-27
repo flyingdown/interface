@@ -63,6 +63,7 @@ export default {
                         setCookie('token', response.data.token)
                         setCookie('username', this.account.username)
                         this.logining = false
+                        this.$router.push('index')
                     }).catch((error) => {
                         console.log(error)
                         this.logining = false
